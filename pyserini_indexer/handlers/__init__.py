@@ -1,5 +1,6 @@
 __all__ = [
     "commands",
+    "get_searcher",
 ]
 
 from .indexes import commands

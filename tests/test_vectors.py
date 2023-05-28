@@ -1,8 +1,8 @@
 import unittest
 
-from utils.vectors import (generate_ance_embeddings,
-                           generate_minilmv2_embeddings,
-                           generate_tct_colbert_embeddings)
+from pyserini_indexer.utils.vectors import (generate_ance_embeddings,
+                                            generate_minilmv2_embeddings,
+                                            generate_tct_colbert_embeddings)
 
 test_passages = [
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",

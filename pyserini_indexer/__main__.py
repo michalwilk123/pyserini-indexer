@@ -1,8 +1,8 @@
 import argparse
 import os
 
-from handlers import commands
-from utils.models import DenseIndexes, SparseIndexes
+from .handlers import commands
+from .utils.models import DenseIndexes, SparseIndexes
 
 
 def parse_enum(value):

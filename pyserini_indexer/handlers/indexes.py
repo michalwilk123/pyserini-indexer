@@ -10,9 +10,9 @@ import faiss
 import numpy as np
 import tqdm
 
-import utils.models as models
-import utils.vectors as vectors
-from utils.splitter import redundant_splitter
+import pyserini_indexer.utils.models as models
+import pyserini_indexer.utils.vectors as vectors
+from pyserini_indexer.utils.splitter import redundant_splitter
 
 NUM_THREADS = os.getenv("NUM_THREADS", "2")
 

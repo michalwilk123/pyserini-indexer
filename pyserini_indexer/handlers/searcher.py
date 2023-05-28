@@ -5,7 +5,7 @@ import pyserini.search.faiss as faiss
 import pyserini.search.hybrid as hybrid
 import pyserini.search.lucene as lucene
 
-import utils.models as models
+import pyserini_indexer.utils.models as models
 
 
 @functools.lru_cache

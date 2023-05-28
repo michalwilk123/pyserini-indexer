@@ -1,8 +1,7 @@
 import pathlib
 import unittest
 
-import utils.models as models
-from handlers.searcher import get_searcher
+from pyserini_indexer.handlers.searcher import get_searcher
 
 index_dir = pathlib.Path("tests/indexes")
 
