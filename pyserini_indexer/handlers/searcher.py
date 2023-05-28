@@ -39,6 +39,10 @@ def get_searcher(
         )
 
     if sparse_searcher and dense_searcher:
+        assert (
+            second_index_dir is not None
+        ), "You must specify second directory for Sparse indexes by specifying second_index_dir argument"
+
         return hybrid.HybridSearcher(dense_searcher, sparse_searcher)
     elif sparse_searcher:
         return sparse_searcher

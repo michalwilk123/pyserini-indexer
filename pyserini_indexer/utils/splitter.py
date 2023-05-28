@@ -34,7 +34,7 @@ def interlace_strings(array: list[str], joints: list[str]) -> str:
 def redundant_splitter(
     text: str, /, max_characters: int = 512, max_sentences: int = 3
 ) -> list[str]:
-    pattern = "(\. )|(\n{2,})"
+    pattern = "(\.+ )|(\n{2,})"
 
     splitted = re.split(pattern, text)[::3]
     joints = [it[0] for it in re.finditer(pattern, text)]

@@ -1,7 +1,7 @@
 import itertools
 import unittest
 
-from pyserini_indexer.utils import interlace_strings, redundant_splitter
+from pyserini_indexer.utils.splitter import interlace_strings, redundant_splitter
 
 test_document = """
 The immune system is a network of biological processes that protects an organism from diseases. It detects and responds to a wide variety of pathogens, from viruses to parasitic worms, as well as cancer cells and objects such as wood splinters, distinguishing them from the organism's own healthy tissue. Many species have two major subsystems of the immune system. The innate immune system provides a preconfigured response to broad groups of situations and stimuli. The adaptive immune system provides a tailored response to each stimulus by learning to recognize molecules it has previously encountered. Both use molecules and cells to perform their functions.

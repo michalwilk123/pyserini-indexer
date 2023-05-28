@@ -4,7 +4,11 @@ import json
 import os
 import subprocess
 from typing import (  # we use python 3.9 so typings are bit outdated :/
-    Callable, Dict, List, Union)
+    Callable,
+    Dict,
+    List,
+    Union,
+)
 
 import faiss
 import numpy as np

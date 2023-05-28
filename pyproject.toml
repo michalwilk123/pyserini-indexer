@@ -29,3 +29,5 @@ excludes = ["./**/.git", "tests"]
 pyserini-indexer = "python pyserini_indexer"
 test = "python -m unittest"
 
+[tool.isort]
+profile = "black"

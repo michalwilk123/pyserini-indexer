@@ -1,7 +1,10 @@
 import os
 
-from pyserini.encode import (AnceDocumentEncoder, AutoDocumentEncoder,
-                             TctColBertDocumentEncoder)
+from pyserini.encode import (
+    AnceDocumentEncoder,
+    AutoDocumentEncoder,
+    TctColBertDocumentEncoder,
+)
 
 from .models import ANCE_MODEL, AUTO_MODEL, TCT_BERT_MODEL
 
